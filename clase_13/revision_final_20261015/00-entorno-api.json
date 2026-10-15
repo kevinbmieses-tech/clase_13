@@ -1,0 +1,25 @@
+{
+  "servicioSql": "Running",
+  "endpoints": [
+    "/api/bancos-sangre",
+    "/api/bancos-sangre/{id}",
+    "/api/citas",
+    "/api/citas/{id}"
+  ],
+  "fecha": "2026-10-15T10:07:45.7311271-04:00",
+  "swaggerHttp": 200,
+  "apiBancos": [
+    {
+      "id": 1,
+      "nombre": "Banco de práctica — Santo Domingo",
+      "direccion": "Sede de demostración, Santo Domingo",
+      "telefono": "809-555-0101"
+    },
+    {
+      "id": 2,
+      "nombre": "Banco de práctica — Santiago",
+      "direccion": "Sede de demostración, Santiago",
+      "telefono": "809-555-0102"
+    }
+  ]
+}

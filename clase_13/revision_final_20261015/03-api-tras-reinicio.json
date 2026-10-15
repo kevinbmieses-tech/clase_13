@@ -1,0 +1,14 @@
+{
+  "procesoApiAnterior": 36160,
+  "procesoApiNuevo": 24808,
+  "cita": {
+    "id": 12,
+    "bancoSangreId": 1,
+    "bancoNombre": "Banco de práctica — Santo Domingo",
+    "bancoDireccion": "Sede de demostración, Santo Domingo",
+    "fechaHora": "2026-10-20T10:15:00-04:00"
+  },
+  "apiReiniciada": true,
+  "consultaHttp": 200,
+  "fecha": "2026-10-15T10:14:35.2077430-04:00"
+}

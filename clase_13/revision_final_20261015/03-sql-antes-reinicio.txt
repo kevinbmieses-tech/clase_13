@@ -1,0 +1,3 @@
+CitaId DonanteId BancoSangreId Banco FechaHora
+------ --------- ------------- ----- ---------
+12 4 1 Banco de práctica — Santo Domingo 2026-10-20 14:15:00.0000000 +00:00

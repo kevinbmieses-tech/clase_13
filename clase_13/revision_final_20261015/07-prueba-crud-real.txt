@@ -1,0 +1,7 @@
+I/flutter (10570): 00:00 +0: Revisión real Android, fase crud
+SQL CONFIRMADO: 05-cita-creada; filas=1
+SQL CONFIRMADO: 06-cita-modificada; filas=1
+SQL CONFIRMADO: 07-cita-eliminada; filas=0
+SQL CONFIRMADO: 08-cita-para-persistencia; filas=1
+I/flutter (10570): 00:31 +2: All tests passed!
+All tests passed.

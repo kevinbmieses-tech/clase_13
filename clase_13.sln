@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clase_13", "clase_13", "{8A00FC48-3A6B-4157-9CE0-B3058D923557}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{C37AED27-4398-4D6C-B677-7468068CF827}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoSangre.Api", "clase_13\backend\BancoSangre.Api\BancoSangre.Api.csproj", "{E4D2CE14-82E6-4DFD-A0B5-9D895B07068B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4D2CE14-82E6-4DFD-A0B5-9D895B07068B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D2CE14-82E6-4DFD-A0B5-9D895B07068B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D2CE14-82E6-4DFD-A0B5-9D895B07068B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D2CE14-82E6-4DFD-A0B5-9D895B07068B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C37AED27-4398-4D6C-B677-7468068CF827} = {8A00FC48-3A6B-4157-9CE0-B3058D923557}
+		{E4D2CE14-82E6-4DFD-A0B5-9D895B07068B} = {C37AED27-4398-4D6C-B677-7468068CF827}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {134CF5F0-DFF0-4318-B5F2-426651270920}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Visual Studio Code / IDE
+.idea/
+*.iml
+.vscode/
+
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins-dependencies
+
+# Backend .NET
+bin/
+obj/
+
+# Dependencias
+node_modules/
+.gradle/
+Pods/
+
+# Archivos sensibles
+.env
+.env.*
+!.env.example
+appsettings.json
+appsettings.*.json
+*firebase-adminsdk*.json
+*service-account*.json
+*.pem
+*.p12
+*.pfx
+*.key
+*.jks
+
+# Archivos pesados
+*.zip
+*.bak
+*.mdf
+*.ldf

@@ -1,0 +1,32 @@
+{
+  "origenSql": [
+    {
+      "id": 1,
+      "nombre": "Banco de práctica — Santo Domingo",
+      "direccion": "Sede de demostración, Santo Domingo",
+      "telefono": "809-555-0101"
+    },
+    {
+      "id": 2,
+      "nombre": "Banco de práctica — Santiago",
+      "direccion": "Sede de demostración, Santiago",
+      "telefono": "809-555-0102"
+    }
+  ],
+  "respuestaApi": [
+    {
+      "id": 1,
+      "nombre": "Banco de práctica — Santo Domingo",
+      "direccion": "Sede de demostración, Santo Domingo",
+      "telefono": "809-555-0101"
+    },
+    {
+      "id": 2,
+      "nombre": "Banco de práctica — Santiago",
+      "direccion": "Sede de demostración, Santiago",
+      "telefono": "809-555-0102"
+    }
+  ],
+  "coincidenTodosLosCampos": true,
+  "fecha": "2026-10-15T10:10:33.4447399-04:00"
+}

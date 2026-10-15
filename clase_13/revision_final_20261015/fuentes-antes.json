@@ -1,0 +1,342 @@
+[
+  {
+    "archivo": "backend\\BancoSangre.Api\\appsettings.Development.json",
+    "sha256": "AD521A774F01E16B1496719DE8AA38CCCB94E62F20404ADFA203AC8DE3BCB59B"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\appsettings.json",
+    "sha256": "202F15881B826639FB54B281326B6D421F3F14A179A6A8920B776503BB97DAF0"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\BancoSangre.Api.csproj",
+    "sha256": "8F562ED24EA7CAC5501F5616CF8FE6E868C23F886508BFD47BD2B26038ACC5A7"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Program.cs",
+    "sha256": "4641136958C9597B0A147A6F166CC5FFB8AD036B2A4A46AAE7614EDE3ECCC708"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\.config\\dotnet-tools.json",
+    "sha256": "EAEA32D0EEA34E6D61DEDE69D3F0272F1D73E77C988B034FD0BEA3043CE5E031"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Controllers\\BancosSangreController.cs",
+    "sha256": "66E793D51C0B3E366F88933A046AE4B020DF9E49AEECEC12A0AC5FED74C62BCC"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Controllers\\CitasController.cs",
+    "sha256": "46F0D2AF2B8F3239D402C08377E4EFA22B8BA04898B65626D62EBBDCFBBCBC01"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Data\\BancoSangreDbContext.cs",
+    "sha256": "A33DE6F37EBD225644C0C3D75E02D1E3BC35C3A3FFDBD76A0FD5A98D98E2EB5E"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\DTOs\\CitasDtos.cs",
+    "sha256": "3F3B12039848CBC5C7796E5C95D696AFADE8E951DC8EA188FA622F8394FFBEB8"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Migrations\\20261015135442_Inicial.cs",
+    "sha256": "3C2FA44FA22B06303F31449605768C119961C9777DD6E65BB8284C0E5C04F244"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Migrations\\20261015135442_Inicial.Designer.cs",
+    "sha256": "6F56EEC461E36134C8A06E460033024E61184B22D44F97564023CF4E6EC4F009"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Migrations\\BancoSangreDbContextModelSnapshot.cs",
+    "sha256": "7FEEAD24F555B72466B7DF6AE3E238FD7B65ED10EFEA728373A1AB2983C1CC16"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Models\\BancoSangre.cs",
+    "sha256": "19CC48B706E117B2DEB906BB63EA96B047219DC7A7F63E85D0B35C56D7BA4557"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Models\\Cita.cs",
+    "sha256": "5AF93852C6AECB5F3FE5824AA8E301E596A6917C8F556BAEDFD950F2B40D3E04"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Models\\Donante.cs",
+    "sha256": "F77A3D6D68F8B6BEB17633F2D1878165CF9D62FB95063D067E19F9EE2FA09742"
+  },
+  {
+    "archivo": "backend\\BancoSangre.Api\\Properties\\launchSettings.json",
+    "sha256": "A3BC48C10F29CD5EC52C4FD2266E050A15FEAF78B0D668D83C98B64DC0A3ACAA"
+  },
+  {
+    "archivo": "lib\\firebase_options.dart",
+    "sha256": "4A86D0CA58BDCC03888842CBA93438E9E179C8DA01CBB480A4A7E8054687C5CC"
+  },
+  {
+    "archivo": "lib\\main.dart",
+    "sha256": "559C3211A26915EAA3A0742073D2352AB07B408FB01A4F0829848329895AD42E"
+  },
+  {
+    "archivo": "lib\\src\\app_scope.dart",
+    "sha256": "841C983EDF6FDB5E774B1D35D9F9DB00C8A2D3E4D120E425BA2EAD191CF29F5E"
+  },
+  {
+    "archivo": "lib\\src\\constants\\validators.dart",
+    "sha256": "158800769C2319001DC8FEFF4F2C362E5FC8D16CCD68B5D1218311395AA4E9BA"
+  },
+  {
+    "archivo": "lib\\src\\general\\config\\colors.dart",
+    "sha256": "F9248F3932B17B4487A3C7D5533CE84B94B127E33274E4D67CB83763C9DD4B63"
+  },
+  {
+    "archivo": "lib\\src\\general\\config\\config.dart",
+    "sha256": "C741D983DA3D95E3A41398E0256D2CD67EF3DD7608296A07F5273DB1D9CE1DB2"
+  },
+  {
+    "archivo": "lib\\src\\general\\utils\\blank_space.dart",
+    "sha256": "63753656F18BA91CBA7057774F3CD629075C8B4CEC09DC1ECA7A07CF638B2CFC"
+  },
+  {
+    "archivo": "lib\\src\\general\\utils\\responsive.dart",
+    "sha256": "F94338661880FE98574DE2A6F255B7CE955A3E7956763208FA748AF3A2A1C9A7"
+  },
+  {
+    "archivo": "lib\\src\\models\\blood_models.dart",
+    "sha256": "C0531194B2D05E05E3A7126F02CE872DA935233E12F86CC9F71B13F87D08F4EE"
+  },
+  {
+    "archivo": "lib\\src\\models\\citas_models.dart",
+    "sha256": "2B0A454A0718D1680500767A21D5BEBE56BEDBD6E6D2AFD17B19262BDA27DE06"
+  },
+  {
+    "archivo": "lib\\src\\repositories\\blood_repository.dart",
+    "sha256": "6945C69C8F9283CE1C0D2E778DF7E92BAE84EDAE5637C6803CDBAF50E99811F3"
+  },
+  {
+    "archivo": "lib\\src\\screens\\.DS_Store",
+    "sha256": "609D3ADD089E520F5DE821C85166D3B7EB1E808E00F905619C99B75C2EDA65B2"
+  },
+  {
+    "archivo": "lib\\src\\screens\\components.dart",
+    "sha256": "B92F853835B4C88B07C3CC45DA1A2C3B242436E66D8320D921D090CDE27535D4"
+  },
+  {
+    "archivo": "lib\\src\\screens\\main_screen.dart",
+    "sha256": "001B32B67B10ADE1C433D7EC7D4280EC90EE10650061FD58093B3F92FD86E31F"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\.DS_Store",
+    "sha256": "FB11E92C8CEA3FC98D5ACCCEE3111189906F06FB9AEC9810026954BB676B9B19"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\home_screen.dart",
+    "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\all_requests\\screens\\all_request_screen.dart",
+    "sha256": "AAF399E0022D6D7AF32D3F163B8126C550885106C979D5C4798E55948CEBA03D"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\all_requests\\widgets\\blood_request_filter.dart",
+    "sha256": "294DD2169F9B52ED5245E0396E2AD29D312152F662BCE79566BF32FC5D696342"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\all_request_details\\screens\\request_details_screen.dart",
+    "sha256": "2D74D1A6F922E343CD3DA28F012A4751835B7D865EE05F1CA5B45641BEC36E47"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\all_request_details\\widgets\\custom_call_btn.dart",
+    "sha256": "162F456619D7124208D96C3F09E78312745B8157B25B5D3EA002D655601213BE"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\all_request_details\\widgets\\request_details_item.dart",
+    "sha256": "D03AB60B3544F40C5036D4DF8AF29ADF68F2BACFDAAA4BD8B27314597FFD72FA"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\auth\\forgot_password_screen.dart",
+    "sha256": "7B7888295814179C4A1CD304127176C0CB4DF23333EA2FC242D737254DD0B1CC"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\auth\\login_screen.dart",
+    "sha256": "3A3CC558848BBEE0B3C180333A93882F1F1BBFBE14A39D43F5F85BC13EEEEB0D"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\auth\\register_screen.dart",
+    "sha256": "8B232B5718B81AE0D8479686A275C9D5D8C81A66460C9CE18DD04417EEB55C24"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\citas\\bancos_sangre_screen.dart",
+    "sha256": "79DF6D43E410313659B2891CC2121970EFC7917A08CCAC49A0D1D3960412B248"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\citas\\cita_form_screen.dart",
+    "sha256": "A3AB7E04136775A6D4508A4BCB718FC1613197E08769645AD0B11F0F1E639C67"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\citas\\mis_citas_screen.dart",
+    "sha256": "EA41538ECC39B16E1E2A4E2184D4DD762CC57D617C9EAC6807E093D4D42551E2"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_appbar.dart",
+    "sha256": "5A82145FCBD55DF31576D777ED0B06AF6B1FF7DA9EAB5562D724E847C26E86DB"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_blood_filter_box.dart",
+    "sha256": "3910FC5AE4A8AE2F8F1AA8DB79886E3ACDFF5CF9957A6171A86FCC2FC16D06A4"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_blood_group_box.dart",
+    "sha256": "569D11F4A4ADAE4F8EDFFB201B903981DE09F55420B3A9FD96C54E8D6BC72A50"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_blood_group_icon.dart",
+    "sha256": "64A8AE61095C2207BD8464DA47C991AD379205299883B64A79054AA89C7B304B"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_drawer_item.dart",
+    "sha256": "677FD9B71E5E50082CC71235A1B83A82E95E417FF8684913C4456E2850D8031F"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_find_screen_item.dart",
+    "sha256": "2776DA1AF6353BC88FBCF2BDA05F039B2EC3275B5CF503E405D81E81F20A5E34"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_form_textfield.dart",
+    "sha256": "7768A53A0CF5B0B7E32EADBB1BB975797DA27027B4B2C93AE05B48D883718F8B"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_gender_box.dart",
+    "sha256": "F80532C4EB253E81339665B8FA16BC87F76DDBA0E11281652F93BA53670118F4"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_gender_btn.dart",
+    "sha256": "CDDDB4A19C47B2392C067D5F31F67E7A2F689D84FD9D3FA721FB74F76180C1FC"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\custom_red_btn.dart",
+    "sha256": "B09FB20DE6B4039FE27556925F4AA7E78F45D77FEB2DD3ACCA880C3505EA68A2"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\find_donor_date_picker.dart",
+    "sha256": "BE20EC9F91D6E531CB2C8A9E162EE78AFA6F5A5B524337F335353E731AF53AA9"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\home_drawer.dart",
+    "sha256": "2B5954BEE996277D6BDEC285D47C2F17CB5B2FD0B5967912CC5429501D45D9BC"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\components\\widgets\\main_button.dart",
+    "sha256": "CC4640C8E17A3277484E79F80C1B86CB6899155F41F63131C0C3C1A1C468B836"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\donor_registration\\screens\\donor_registration_screen.dart",
+    "sha256": "0DDA703AA22273FCCDBCECF074E872D678C350B4FD3AD26C3F8AB69FAB8F652A"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\edit_profile\\screens\\edit_profile_screen.dart",
+    "sha256": "6E0F547B2D0C5C444A403AD4FF7D59F2D565D8934F42B7EE63B6C30091C7CB0F"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\find_donor\\screens\\donor_search_screen.dart",
+    "sha256": "C42CA04A4616BD366A758F8F01BB8457D021C8053A0EC0C731CE55EA9F94D196"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\find_donor\\screens\\find_donor_screen.dart",
+    "sha256": "A5A6D12E4A6E314A5D9036520AD06EA65A4920DD44F92F66340B5E038B7788C4"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\home\\.DS_Store",
+    "sha256": "546C04D67BE9BD53CCBBA752A04DE832E876E31D789037A8E4F30C179FC2D36B"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\home\\screens\\home_screen.dart",
+    "sha256": "70E63394AAA07BFAB5DDBF1A57F60C90AAB44E028ED880C882D41460623D8706"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\home\\widgets\\custom_home_container.dart",
+    "sha256": "4A5B570307CACB3CAB4BEBB9775641F15C26FBFBD3AAD54A9ADF26B416FCFE90"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\home\\widgets\\request_feed_item.dart",
+    "sha256": "881AACB8468FD61A70E9C7F1CFD74856F42A75C40D738AA03B5481FF4BBCFC58"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\home\\widgets\\requests_feed.dart",
+    "sha256": "417F63E34A503411FC33ED78ACDDB61D7C7DD7FE0E272F56E99B4317D7F973EE"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\onboarding\\onboarding_screen.dart",
+    "sha256": "C84F00A0207656B16693181772F4E9587555EB6F8A5969C8745CC51D303419C4"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\onboarding\\splash_screen.dart",
+    "sha256": "7CC060182DD662C0BE298E0D6B7885E10C54E6C4B28483747BB10EEEA7585C7F"
+  },
+  {
+    "archivo": "lib\\src\\screens\\views\\profile\\screens\\profile_screen.dart",
+    "sha256": "0774C958005BAD8C1C79F1AFD8116A934D0E1CD5C8089F8F515356761ABF44D4"
+  },
+  {
+    "archivo": "lib\\src\\services\\banco_sangre_api.dart",
+    "sha256": "0C745F3514C5EFA38D87A62DFA4588EBB9B57ABA67563D089B4DA9C3255E3F94"
+  },
+  {
+    "archivo": "lib\\src\\services\\firebase_blood_repository.dart",
+    "sha256": "2C2C3F17AD8F6526FF5A83CA086CFFCF3593994D8E84CAE51497A09F8357F5B9"
+  },
+  {
+    "archivo": "android\\app\\src\\debug\\AndroidManifest.xml",
+    "sha256": "6BDFBBF47859C803C5146B27296A6402E17D499D3D8E851B5A55EA8412DE742E"
+  },
+  {
+    "archivo": "android\\app\\src\\debug\\res\\xml\\development_network_security.xml",
+    "sha256": "241C9BCB9EEDDB488F282773B06998C4E400B389C6E928759C8029D7EF639B68"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\AndroidManifest.xml",
+    "sha256": "B1A3954A80A34A396D1AAB0F82F3C4BC8849FA514493F67728D68810E1B56593"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java",
+    "sha256": "18F2036F3FA239D329C96ED3D541A85F448A618505D665FD9A7C30CB07CFF9CD"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\kotlin\\com\\example\\clase_13\\MainActivity.kt",
+    "sha256": "378585B4CADB7C8971B1907E294E6DC0F5AE7BA441FEC1637175A23844A5F438"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\drawable\\launch_background.xml",
+    "sha256": "94433756FE10005DDD6FC55CC5C0B1E9F3C10B66A08CEAC795ECE6713D34E28A"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml",
+    "sha256": "7CA6D5CEC2169C5A98661A119DB23A6F3399C8FEF2256FF04F3A642831282478"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+    "sha256": "6A7C8F0D703E3682108F9662F813302236240D3F8F638BB391E32BFB96055FEF"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+    "sha256": "C7C0C0189145E4E32A401C61C9BDC615754B0264E7AFAE24E834BB81049EAF81"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+    "sha256": "E14AA40904929BF313FDED22CF7E7FFCBF1D1AAC4263B5EF1BE8BFCE650397AA"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+    "sha256": "4D470BF22D5C17D84EDC5F82516D1BA8A1C09559CD761CEFB792F86D9F52B540"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+    "sha256": "3C34E1F298D0C9EA3455D46DB6B7759C8211A49E9EC6E44B635FC5C87DFB4180"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\values\\styles.xml",
+    "sha256": "937D7C82F539C72EB94FD3A3773F29B3D3FEF1997213C92CB632298CEDF4BDA9"
+  },
+  {
+    "archivo": "android\\app\\src\\main\\res\\values-night\\styles.xml",
+    "sha256": "8C5BAD5152F217E837519F9C15211D19F39BD45F5F67FAF6DD81CB4B299E518F"
+  },
+  {
+    "archivo": "android\\app\\src\\profile\\AndroidManifest.xml",
+    "sha256": "30B0832ED8B92DFBD6AE2ABFA939CCF26333D37600056B1572BD4A397A18A74B"
+  }
+]

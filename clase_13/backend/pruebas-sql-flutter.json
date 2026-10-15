@@ -1,0 +1,14 @@
+[
+  {
+    "etapa": "citas-creada",
+    "cantidad_y_banco_en_SQL": "1|1"
+  },
+  {
+    "etapa": "citas-modificada",
+    "cantidad_y_banco_en_SQL": "1|2"
+  },
+  {
+    "etapa": "citas-eliminada",
+    "cantidad_y_banco_en_SQL": "0|0"
+  }
+]

@@ -1,0 +1,16 @@
+BaseActual
+----------
+BancoSangreAcademico
+name
+----
+__EFMigrationsHistory
+BancosSangre
+Citas
+Donantes
+Id Nombre Direccion Telefono
+-- ------ --------- --------
+1 Banco de práctica — Santo Domingo Sede de demostración, Santo Domingo 809-555-0101
+2 Banco de práctica — Santiago Sede de demostración, Santiago 809-555-0102
+CitasAntesDeLaInterfaz
+----------------------
+0

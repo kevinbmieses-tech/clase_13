@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function owner(uid) { return signedIn() && request.auth.uid == uid; }
+    function profileValid(uid) {
+      return request.resource.data.uid == uid
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 120
+        && request.resource.data.phone is string
+        && request.resource.data.location is string
+        && request.resource.data.bloodGroup is string
+        && request.resource.data.photo is string
+        && request.resource.data.photo.size() <= 400000
+        && request.resource.data.isDonor is bool;
+    }
+    match /users/{uid} {
+      allow read, delete: if owner(uid);
+      allow create, update: if owner(uid) && profileValid(uid);
+    }
+    match /donors/{uid} {
+      allow read: if signedIn();
+      allow create, update: if owner(uid) && profileValid(uid)
+        && request.resource.data.isDonor == true
+        && !('email' in request.resource.data)
+        && request.resource.data.bloodGroup in ['A+','B+','AB+','O+','A-','B-','AB-','O-'];
+      allow delete: if owner(uid);
+    }
+    match /requests/{id} {
+      allow read: if signedIn();
+      allow create: if signedIn()
+        && request.resource.data.ownerId == request.auth.uid
+        && request.resource.data.bloodGroup in ['A+','B+','AB+','O+','A-','B-','AB-','O-']
+        && request.resource.data.bags is int
+        && request.resource.data.bags >= 1 && request.resource.data.bags <= 20
+        && request.resource.data.patientName is string
+        && request.resource.data.patientName.size() > 0
+        && request.resource.data.phone is string
+        && request.resource.data.phone.size() > 0
+        && request.resource.data.location is string
+        && request.resource.data.location.size() > 0
+        && request.resource.data.reason is string
+        && request.resource.data.reason.size() > 0
+        && request.resource.data.neededBefore is string
+        && request.resource.data.createdAt is string
+        && request.resource.data.isOpen == true;
+      allow update: if signedIn() && resource.data.ownerId == request.auth.uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['isOpen'])
+        && request.resource.data.isOpen == false;
+    }
+  }
+}

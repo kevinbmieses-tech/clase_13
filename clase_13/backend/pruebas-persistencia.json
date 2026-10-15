@@ -1,0 +1,8 @@
+{
+  "bancoSangreId": 1,
+  "limpieza": "DELETE 204",
+  "filasSqlTrasReinicio": 1,
+  "prueba": "La cita sigue en SQL y GET devuelve 200 después de detener e iniciar la API",
+  "fecha": "2026-10-15T10:01:00.5876982-04:00",
+  "citaId": 6
+}

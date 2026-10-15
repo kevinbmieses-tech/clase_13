@@ -1,0 +1,55 @@
+[
+  {
+    "etapa": "05-cita-creada",
+    "fecha": "2026-10-15T10:13:27.540927",
+    "base": "BancoSangreAcademico",
+    "tabla": "dbo.Citas",
+    "filas": [
+      {
+        "citaId": 11,
+        "donanteId": 4,
+        "bancoId": 1,
+        "fechaHora": "2026-10-17T14:15:00Z"
+      }
+    ],
+    "salidaSqlDirecta": "11|4|1|2026-10-17T14:15:00Z"
+  },
+  {
+    "etapa": "06-cita-modificada",
+    "fecha": "2026-10-15T10:13:32.783753",
+    "base": "BancoSangreAcademico",
+    "tabla": "dbo.Citas",
+    "filas": [
+      {
+        "citaId": 11,
+        "donanteId": 4,
+        "bancoId": 2,
+        "fechaHora": "2026-10-18T14:15:00Z"
+      }
+    ],
+    "salidaSqlDirecta": "11|4|2|2026-10-18T14:15:00Z"
+  },
+  {
+    "etapa": "07-cita-eliminada",
+    "fecha": "2026-10-15T10:13:34.687628",
+    "base": "BancoSangreAcademico",
+    "tabla": "dbo.Citas",
+    "filas": [],
+    "salidaSqlDirecta": ""
+  },
+  {
+    "etapa": "08-cita-para-persistencia",
+    "fecha": "2026-10-15T10:13:41.651724",
+    "base": "BancoSangreAcademico",
+    "tabla": "dbo.Citas",
+    "filas": [
+      {
+        "citaId": 12,
+        "donanteId": 4,
+        "bancoId": 1,
+        "fechaHora": "2026-10-20T14:15:00Z"
+      }
+    ],
+    "salidaSqlDirecta": "12|4|1|2026-10-20T14:15:00Z"
+  }
+]
