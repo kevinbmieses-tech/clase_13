@@ -1,0 +1,21 @@
+# Desarrollo local en macOS: SQL Server 2022 (Developer, solo uso de pruebas).
+# SQL Server Linux usa x86-64. En Apple Silicon la emulación no tiene soporte oficial.
+# Si SQL Server no inicia de forma estable, usar un host x86-64 remoto.
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?Falta MSSQL_SA_PASSWORD en backend/.env}
+    ports:
+      # No exponer SQL Server a otras computadoras de la red.
+      - "127.0.0.1:1433:1433"
+    volumes:
+      # Preservar la base de datos al reiniciar/recrear el contenedor.
+      - sqlserver_data:/var/opt/mssql
+    restart: unless-stopped
+
+volumes:
+  sqlserver_data:
